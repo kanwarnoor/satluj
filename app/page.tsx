@@ -11,10 +11,10 @@ export default function Home() {
       <blockquote className="text-right ml-auto">- Jaswant Singh Khalra</blockquote>
     </div>
 
-    <div className="flex m-auto w-[100vh] mb-10">
+    <div className="flex m-auto md:w-[100vh] w-full mb-10">
       <iframe
   src="https://player.mux.com/PailP00w02GKnfcDbq9k4oOtNLYR3cVMguwA02RUtMOK5U"
-  style={{width: "200%", border: "none", aspectRatio: "16/9"}}
+  style={{width: "100%", border: "none", aspectRatio: "16/9"}}
   allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
   allowFullScreen
 ></iframe>
