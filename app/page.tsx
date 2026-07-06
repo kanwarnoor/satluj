@@ -4,13 +4,22 @@ import { EncryptedText } from "@/components/ui/encrypted-text"
 export default function Home() {
   return (
     <div className="flex h-fit flex-col items-center justify-center mx-auto my-auto m-auto">
-    <div className="h-fit flex flex-col items-center justify-center mb-20">
+    <div className="h-fit flex flex-col items-center justify-center mb-10 mt-10">
       <Image src={"/jaswant.jpg"} alt="jaswant singh khalra" height={100} width={100} className="mb-5" />
       <EncryptedText text={"I challenge the darkness"} className="md:text-4xl text-3xl text-center font-bold"  />
      
       <blockquote className="text-right ml-auto">- Jaswant Singh Khalra</blockquote>
     </div>
-    <div className="text-left flex flex-col w-[70vw] mx-auto gap-5">
+
+    <div className="flex m-auto w-[100vh] mb-10">
+      <iframe
+  src="https://player.mux.com/PailP00w02GKnfcDbq9k4oOtNLYR3cVMguwA02RUtMOK5U"
+  style={{width: "200%", border: "none", aspectRatio: "16/9"}}
+  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+  allowFullScreen
+></iframe>
+    </div>
+    <div className="text-left flex flex-col w-[70vw] mx-auto gap-5 mb-10">
       <p className="text-3xl font-bold">Torrenting Guide</p>
       <ul className="flex flex-col gap-5">
         <li>
